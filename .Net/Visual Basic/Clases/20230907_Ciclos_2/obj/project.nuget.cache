@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "vsN7aAsnykI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\manrp\\source\\repos\\20230907_Ciclos_2\\20230907_Ciclos_2.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\manrp\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.33\\microsoft.windowsdesktop.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\manrp\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.33\\microsoft.netcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\manrp\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.33\\microsoft.aspnetcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\manrp\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.33\\microsoft.netcore.app.host.win-x64.6.0.33.nupkg.sha512"
+  ],
+  "logs": []
+}

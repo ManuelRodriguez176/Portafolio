@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avatar Creator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="h1">Creador de avatares</h1>    
+    <section class="avatar-creator">
+        <div class="avatar-preview">
+                <div id="avatar-preview1"class="rasgos">
+                    <img id="avatar-face" src="">
+                    <img id="avatar-clothes" src="">
+                    <img id="avatar-hair" src="">
+                    <img id="avatar-eyes" src="">
+                    <img id="avatar-mouth" src="">
+                    <img id="avatar-accessory" src="">
+                </div>
+            </div>
+
+    <section class="controls">
+        <div class="control" id="body-control">
+            <h3>Cuerpos</h3>
+            <button class="prev" onclick="prevFeature('face',genero)">⬅️</button>
+            <button class="next" onclick="nextFeature('face',genero)">➡️</button>
+            </div>
+
+            <div class="" id="hair-control">
+            <h3>Cabello</h3>
+            <button class="prev" onclick="prevFeature('hair',genero)">⬅️</button>
+            <button class="next" onclick="nextFeature('hair',genero)">➡️</button>
+            </div>
+
+            <div class="" id="eyes-control">
+            <h3>Ojos</h3>
+            <button class="prev" onclick="prevFeature('eyes',genero)">⬅️</button>
+            <button class="next" onclick="nextFeature('eyes',genero)">➡️</button>
+            </div>
+
+            <div class="" id="mouth-control">
+                <h3>Labios</h3>
+                <button class="prev" onclick="prevFeature('mouth',genero)">⬅️</button>
+                <button class="next" onclick="nextFeature('mouth',genero)">➡️</button>
+                </div>
+
+                <div class="" id="accessory-control">
+                <h3>Accesorios</h3>
+                <button class="prev" onclick="prevFeature('accessory',genero)">⬅️</button>
+                <button class="next" onclick="nextFeature('accessory',genero)">➡️</button>
+                </div>
+
+                <div class="" id="clothes-control">
+                <h3>Ropa</h3>
+                <button class="prev" onclick="prevFeature('clothes',genero)">⬅️</button>
+                <button class="next" onclick="nextFeature('clothes',genero)">➡️</button>
+                </div>
+                <div class="">
+                <div class="" id="hair-control">
+                <h3>Cambios de color</h3>
+                <button class="prev" onclick="prevFeature2('hair',genero)">⬅️</button>
+                <div class="color-box" id="hair-color"></div>
+                <button class="next" onclick="nextFeature2('hair',genero)">➡️</button>
+                </div>
+                    
+                <div>
+                <h3>Cambios de fondo</h3>
+                <button onclick="changeBackgroundImage()">Cambiar Color de fondo</button>
+                </div>
+                </div>
+            </section>
+        </section>
+        <section>
+            <h3 class="h3">Lista de avatares</h3>
+            <button class="button" onclick="loadAvatarList()">Cargar Avatares</button>
+            <div id="list" class=""></div>
+        </section>
+    <section class="contenedor-terciario">
+            <button class="btngenero" onclick="window.location.href = 'genero.html';">
+                <img src="Botones/atras.png" alt="">
+            </button>
+            <button class="btngenero" onclick="captureAvatar()">
+                <img src="Botones/guadar.png" alt="">
+            </button>
+            <button class="btngenero" onclick="downloadAvatar()">
+                <img src="Botones/descargar.png" alt="">
+            </button>
+    </section>
+    <script>
+        let genero = "Mujer";  // Variable global para el género
+        document.addEventListener('DOMContentLoaded', function () {
+            // Obtener el valor del género de la URL
+            const urlParams = new URLSearchParams(window.location.search);
+            genero = urlParams.get('genero') || genero; // Actualizar genero global
+            console.log(genero);
+        });
+    </script>
+    <script src="funcionalidad.js"></script>
+</body>
+</html>

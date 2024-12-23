@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\manrp\\source\\repos\\20230907_Ciclos_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84792228-632E-46FC-8EDA-70AAC94A6F14}|20230907_Ciclos_2.vbproj|c:\\users\\manrp\\source\\repos\\20230907_ciclos_2\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{84792228-632E-46FC-8EDA-70AAC94A6F14}|20230907_Ciclos_2.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84792228-632E-46FC-8EDA-70AAC94A6F14}|20230907_Ciclos_2.vbproj|c:\\users\\manrp\\source\\repos\\20230907_ciclos_2\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{84792228-632E-46FC-8EDA-70AAC94A6F14}|20230907_Ciclos_2.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\manrp\\source\\repos\\20230907_Ciclos_2\\Form1.vb",
+              "RelativeDocumentMoniker": "Form1.vb",
+              "ToolTip": "C:\\Users\\manrp\\source\\repos\\20230907_Ciclos_2\\Form1.vb [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-03T00:40:26.056Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\manrp\\source\\repos\\20230907_Ciclos_2\\Form1.vb",
+              "RelativeDocumentMoniker": "Form1.vb",
+              "ToolTip": "C:\\Users\\manrp\\source\\repos\\20230907_Ciclos_2\\Form1.vb",
+              "RelativeToolTip": "Form1.vb",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowEoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-03T00:40:26.27Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="149.167px" height="172.243px" viewBox="0 0 149.167 172.243" enable-background="new 0 0 149.167 172.243"
+     xml:space="preserve">
+  <!-- Main circle -->
+  <circle cx="74.583" cy="86.121" r="60" fill="#000000"/>
+  
+  <!-- MR text in circle -->
+  <text x="40" y="100" 
+        font-family="Arial, sans-serif" 
+        font-size="45" 
+        font-weight="bold" 
+        fill="white">MR</text>
+  
+  <!-- Company name placeholder -->
+  <text x="35" y="160" 
+        font-family="Arial, sans-serif" 
+        font-size="24" 
+        font-weight="bold" 
+        fill="#333333">WEBSITE</text>
+</svg>
