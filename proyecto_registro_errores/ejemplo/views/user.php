@@ -96,7 +96,6 @@ if(isset($_GET['enviar'])){
                          <tr>
                         <th>Nombre</th>
                         <th>Correo</th>
-                        <th>Password</th>
                         <th>Telefono</th>
                         <th>Fecha</th>
                         <th>Rol</th>
@@ -110,7 +109,7 @@ if(isset($_GET['enviar'])){
 				<?php
 
 $conexion=mysqli_connect("localhost","root","","r_user");               
-$SQL=mysqli_query($conexion,"SELECT user.id, user.nombre, user.correo, user.password, user.telefono,
+$SQL=mysqli_query($conexion,"SELECT user.id, user.nombre, user.correo, user.telefono,
 user.fecha, user.imagen, permisos.rol FROM user
 LEFT JOIN permisos ON user.rol = permisos.id");
 
@@ -120,7 +119,6 @@ LEFT JOIN permisos ON user.rol = permisos.id");
 <tr>
 <td><?php echo $fila['nombre']; ?></td>
 <td><?php echo $fila['correo']; ?></td>
-<td><?php echo $fila['password']; ?></td>
 <td><?php echo $fila['telefono']; ?></td>
 <td><?php echo $fila['fecha']; ?></td>
 <td><?php echo $fila['rol']; ?></td>
